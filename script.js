@@ -59,7 +59,7 @@ function iniciarJogo() {
             if(score > localStorage.getItem("record")) {
                 localStorage.record = score;
             }
-            alert('Game Over')
+            //alert('Game Over')
             window .location.reload();
         }
     }
